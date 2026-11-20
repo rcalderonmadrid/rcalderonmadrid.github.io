@@ -1,0 +1,20 @@
+---
+title: "Title of the news item"
+description: "One-sentence summary shown in the list."
+date: 2025-01-31
+categories: [Press]          # Press, Video, Talk, Paper, Award, Outreach...
+image: ../images/news-placeholder.jpg   # put your image in images/news/ and change this path
+---
+
+Write a short text here: what happened, where, and why it matters.
+
+<!-- ===== EXAMPLES: delete what you don't need ===== -->
+
+<!-- Embed a YouTube / Vimeo video -->
+{{< video https://www.youtube.com/watch?v=VIDEO_ID >}}
+
+<!-- Link to a press article -->
+[Read the article in *Newspaper name* →](https://...)
+
+<!-- Image with caption -->
+![Caption of the photo](../images/news-placeholder.jpg)

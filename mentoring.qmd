@@ -1,0 +1,62 @@
+---
+title: "Mentoring"
+---
+
+I enjoy supervising and mentoring students at different stages of their careers in remote sensing, plant pathology and data science. If you are interested in doing your Bachelor's, Master's or PhD thesis with me, feel free to [get in touch](mailto:rcalderon@ias.csic.es).
+
+<!--
+HOW TO ADD A STUDENT
+Copy one <div class="mentee"> ... </div> block and paste it in the right section.
+- Status: <span class="status ongoing">Ongoing</span>  or  <span class="status done">Defended 2027</span>
+- Role: Supervisor / Co-supervisor (with ...)
+- Optional lines: funding, grade, link to the thesis.
+- PDF button: save the PDF in files/pdfs/mentoring/ and add
+  <div class="mentee-links"><a class="pub-btn" href="files/pdfs/mentoring/NAME.pdf" target="_blank"><i class="bi bi-file-earmark-pdf-fill"></i> Read the thesis</a></div>
+To add Bachelor's theses or interns, create a new section, e.g.:
+## Bachelor's theses
+::: {.mentee-grid}
+  ...mentee blocks...
+:::
+-->
+
+## PhD theses
+
+::: {.mentee-grid}
+
+<div class="mentee">
+<div class="mentee-head"><span class="mentee-name">Hamza Mghari</span><span class="status ongoing">Ongoing</span></div>
+<div class="mentee-title">Smart surveillance of vascular plant pathogens: integrating epidemiological modelling and remote sensing</div>
+<div class="mentee-meta">PhD Programme in Natural Resources and Sustainable Management · University of Córdoba · 2026 – present</div>
+<div class="mentee-meta">Role: Co-supervisor (with Dr. Juan A. Navas-Cortés)</div>
+<div class="mentee-meta">Funding: PIF 2025 predoctoral fellowship</div>
+</div>
+
+:::
+
+## Master's theses
+
+::: {.mentee-grid}
+
+<div class="mentee">
+<div class="mentee-head"><span class="mentee-name">Valle Egea-Cobrero</span><span class="status done">Defended 2023</span></div>
+<div class="mentee-title">Global environmental suitability for <em>Fusarium oxysporum</em> f. sp. <em>cubense</em> Tropical Race 4 (TR4) in banana using satellite imagery</div>
+<div class="mentee-meta">MSc in Agricultural Engineering (Máster Universitario en Ingeniería Agronómica) · University of Córdoba</div>
+<div class="mentee-meta">Role: Co-supervisor (with Dr. Juan Moral)</div>
+<div class="mentee-meta">Grade: Distinction with Honours (Matrícula de Honor)</div>
+<div class="mentee-links"><a class="pub-btn" href="files/pdfs/mentoring/egeacobrero2023tfm.pdf" target="_blank"><i class="bi bi-file-earmark-pdf-fill"></i> Read the thesis</a></div>
+</div>
+
+:::
+
+## Bachelor's theses
+
+::: {.mentee-grid}
+
+<div class="mentee">
+<div class="mentee-head"><span class="mentee-name">Hannah K. Brodsky</span><span class="status done">Defended 2022</span></div>
+<div class="mentee-title">Assessing the long-distance atmospheric transport of soil-borne fungal spores</div>
+<div class="mentee-meta">Undergraduate Honors Thesis · Cornell University, USA</div>
+<div class="mentee-meta">Role: Co-supervisor (with Dr. Natalie M. Mahowald)</div>
+</div>
+
+:::

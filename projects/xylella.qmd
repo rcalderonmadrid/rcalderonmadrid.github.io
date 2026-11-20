@@ -1,0 +1,144 @@
+---
+title: "Integrating spread modelling and remote sensing to optimise early detection surveillance for Xylella fastidiosa in the European Union"
+description: "Postdoctoral project at the University of Salford combining airborne hyperspectral and thermal imagery, machine learning and epidemic spread models to detect Xylella fastidiosa before symptoms appear and to improve surveillance in olive (Italy) and almond (Spain)."
+image: ../images/projects/xylella.jpg
+categories: [Xylella fastidiosa, Hyperspectral, Machine learning, Spread models, Surveillance]
+---
+
+![](../images/projects/xylella.jpg){fig-alt="Xylella fastidiosa project"}
+
+::: {.project-facts}
+**Project:** Integrating spread modelling and remote sensing imagery to optimise early detection surveillance for *Xylella fastidiosa* in the European Union  
+**Funding:** [Alfonso Martín Escudero Foundation](https://fundame.org/becas-de-investigacion/) – Postdoctoral Fellowship for Research at Foreign Universities and Research Centres  
+**Role:** Postdoctoral Research Fellow  
+**Institution:** School of Environment and Life Sciences, University of Salford · Salford, UK  
+**Supervisor:** Dr. Stephen Parnell (University of Salford)  
+**Framework:** H2020 projects [XF-ACTORS](http://www.xfactorsproject.eu) and POnTE  
+**Collaborators:** European Commission Joint Research Centre (Dr. Pieter S. A. Beck, Dr. Carlos Camino), IAS-CSIC (Dr. Juan A. Navas-Cortés, Dr. Pablo J. Zarco-Tejada), University of Cambridge (Dr. Nik Cunniffe) and Rothamsted Research (Dr. Yoann Bourhis)  
+**Period:** 2018 – 2020
+:::
+
+## Overview
+
+### Background
+
+*Xylella fastidiosa* is considered one of the most dangerous plant pathogenic bacteria in the world. First detected in Europe in 2013 in olive trees in Apulia (southern Italy), where it causes Olive Quick Decline Syndrome, it has since been found in France, Spain and other countries, and it can infect more than 550 host species. Its spread threatens the large Mediterranean areas planted with olive, almond, citrus and grapevine, and the EU has made early detection a cornerstone of its plant health regulation.
+
+Epidemiological models are increasingly used to simulate how epidemics spread across landscapes and to design surveillance and control strategies that maximise the chances of eradication while minimising costs. Remote sensing, in turn, can monitor very large areas quickly and, with high-resolution hyperspectral and thermal sensors, detect the physiological changes caused by vascular pathogens.
+
+### Knowledge gaps
+
+- **Long asymptomatic period.** Olive trees infected by *X. fastidiosa* can take around 10 months or more to show symptoms, while surveillance in Europe relies mainly on visual inspection. Infected but asymptomatic trees keep spreading the pathogen undetected.
+- **Costly and biased field surveillance.** Field surveys are labour-intensive and expensive, so they are limited to small areas and are often spatially biased, giving a distorted picture of the real state of the epidemic.
+- **Poorly parameterised models.** Spread models depend on parameters estimated from scarce and imperfect inspection data, which limits their ability to predict emerging epidemics accurately.
+- **Remote sensing and spread models were disconnected.** It was unclear what remote sensing could reveal about epidemic dynamics, and how it could be combined with spread models to estimate disease distribution and to target surveillance.
+
+::: {.project-aim}
+**Project aim:** to optimise the surveillance and early detection of *Xylella fastidiosa* in the European Union by **integrating epidemic spread models with airborne hyperspectral and thermal remote sensing**, from the detection of pre-visual infections to the design of surveillance and control strategies.
+:::
+
+## Study areas
+
+- **Apulia, Italy:** *X. fastidiosa* subsp. *pauca* in **olive** orchards, with airborne campaigns in 2016 and 2017 and field inspections of about 3,300 trees per year in 15 plots.
+- **Alicante, Spain:** *X. fastidiosa* subsp. *multiplex* in **almond** orchards, with an airborne campaign in 2018 and field inspections of 1,453 trees in 20 plots, 328 of them tested by qPCR.
+
+Airborne campaigns were carried out by the European Commission Joint Research Centre and IAS-CSIC within the H2020 projects XF-ACTORS and POnTE.
+
+## Key results at a glance
+
+::: {.metrics}
+::: {.metric}
+[80.9%]{.metric-num}
+[accuracy detecting *X. fastidiosa* in olive from plant traits]{.metric-label}
+:::
+::: {.metric}
+[61%]{.metric-num}
+[of asymptomatic trees flagged by remote sensing showed symptoms within 4 months (vs 39%)]{.metric-label}
+:::
+::: {.metric}
+[35% → 50%]{.metric-num}
+[qPCR-confirmed infections detected in almond after coupling the spread model]{.metric-label}
+:::
+:::
+
+## Approach: three work packages
+
+::: {.card-grid .three-cols}
+
+::: {.skill-card}
+### <i class="bi bi-airplane"></i> 1 · Remote sensing detection
+Automatic methods for the early detection of *X. fastidiosa* at landscape scale from **airborne hyperspectral and thermal imagery**:
+
+- Plant functional traits retrieved by **radiative transfer model** inversion (pigments, structure, nitrogen-related indices), **chlorophyll fluorescence** and canopy **temperature**.
+- **Machine learning** classifiers (support vector machines, neural networks, linear discriminant analysis) trained on field inspections.
+- Multi-temporal **revisits of trees over two years**, supported by qPCR, to test pre-visual detection.
+:::
+
+::: {.skill-card}
+### <i class="bi bi-diagram-3"></i> 2 · Estimating disease distribution
+A **stochastic optimisation model** that estimates the spatial distribution of *X. fastidiosa* from a sample by combining:
+
+- **Landscape connectivity** of the host population (graph and circuit theory) and distance-dependent dispersal.
+- **Remote sensing** infection probabilities for each tree.
+
+Developed and validated in Italy and then transferred to the almond orchards of Alicante.
+:::
+
+::: {.skill-card}
+### <i class="bi bi-bezier2"></i> 3 · Spatio-temporal spread modelling
+A **stochastic, spatially explicit spread model** for *X. fastidiosa* in Italy, parameterised with two data sources, **field inspections and remote sensing**, to compare:
+
+- The epidemiological parameters estimated from each source.
+- The effectiveness of different **surveillance and control scenarios**, such as revisit intervals, detection probability and host removal radius.
+:::
+
+:::
+
+## Main findings
+
+::: {.card-grid .three-cols}
+
+::: {.skill-card}
+### <i class="bi bi-eye"></i> Pre-visual detection
+- Plant traits related to pigments and structure, together with **chlorophyll fluorescence and temperature**, detected infected olive trees with **80.9% accuracy** (κ = 0.61), against 65.4% using only the RGB–NIR indices typical of satellite sensors.
+- Trees flagged by remote sensing but still asymptomatic in the field were **significantly more likely to develop symptoms in the following months**, confirming that infection can be detected **before visible symptoms appear**.
+:::
+
+::: {.skill-card}
+### <i class="bi bi-tree"></i> Almond orchards in Alicante
+- Adding **nitrogen-related indices from the SWIR region** to fluorescence and temperature gave the best detection of *X. fastidiosa* in almond (74.0% accuracy, κ = 0.48).
+- Accuracy dropped in orchards with **low disease incidence**, precisely where early detection matters most.
+:::
+
+::: {.skill-card}
+### <i class="bi bi-graph-up"></i> Remote sensing + spread models
+- Combining remote sensing with landscape connectivity and dispersal gave **more realistic estimates of disease distribution** in low-incidence orchards than remote sensing alone.
+- Coupling the spread model with remote sensing **increased the detection of qPCR-confirmed infections in almond from 35% to 50%**.
+:::
+
+:::
+
+## Take-home message
+
+High-resolution hyperspectral and thermal remote sensing can **detect *Xylella fastidiosa* infections before symptoms are visible**, and **combining it with epidemic spread models** improves estimates of where the disease is, especially at the early stages of an outbreak when control is still possible. This work opened a line of research that I continue today in the [MOMENTUM project](momentum.qmd), moving these approaches to satellite data and operational surveillance.
+
+## Outputs
+
+::: {.card-grid .two-cols}
+
+::: {.skill-card}
+### <i class="bi bi-journal-text"></i> Publications
+- **Previsual symptoms of *X. fastidiosa* infection revealed in spectral plant-trait alterations** · *Nature Plants* (2018) · [DOI](https://doi.org/10.1038/s41477-018-0189-7)
+- **Detection of *X. fastidiosa* in almond orchards by synergic use of an epidemic spread model and remotely sensed plant traits** · *Remote Sensing of Environment* (2021) · [Link](https://www.sciencedirect.com/science/article/pii/S0034425721001383)
+- **Estimating the spatial distribution of *X. fastidiosa* by combining remote sensing and landscape connectivity** · *in preparation*
+- **Parameterising spread models of *X. fastidiosa* with remote sensing vs field surveys** · *in preparation*
+:::
+
+::: {.skill-card}
+### <i class="bi bi-mic"></i> Conferences, outreach and training
+- Talks and posters at the **International Congress of Plant Pathology** (Boston, 2018), the **2nd European Conference on *Xylella fastidiosa*** (Ajaccio, 2019) and **RAQRS** (2020) ([see all](../publications.qmd#pub-conferences)).
+- Outreach articles in ***PHYTOMA España*** and ***Agricultura*** (2018) ([see all](../publications.qmd#pub-outreach)).
+- Training in **Python and machine learning** for spread modelling.
+:::
+
+:::

@@ -1,0 +1,84 @@
+---
+title: "Skills"
+---
+
+## Scientific expertise
+
+::: {.card-grid}
+
+::: {.skill-card}
+### <i class="bi bi-virus"></i> Plant pathology & data epidemiology
+- Plant pathogens: *Verticillium dahliae*, *Xylella fastidiosa*, *Fusarium oxysporum*
+- Disease spread models: mechanistic compartmental and stochastic models
+- Species distribution models (correlative)
+- Epidemic surveillance and control strategies
+:::
+
+::: {.skill-card}
+### <i class="bi bi-droplet-half"></i> Water use optimisation
+- Deficit irrigation strategies in olive and almond
+- Plant water potential (pressure chamber)
+- Physiological parameters: chlorophyll fluorescence, gas exchange
+:::
+
+::: {.skill-card}
+### <i class="bi bi-globe-europe-africa"></i> Remote sensing & GIS
+- Hyperspectral, multispectral, thermal and LiDAR image analysis
+- Plant trait quantification with radiative transfer models
+- Satellite imagery and interactive web mapping
+
+::: {.tags}
+[QGIS]{.tag} [ArcGIS]{.tag} [ArcGIS Online]{.tag} [ENVI]{.tag} [Google Earth Engine]{.tag} [Sentinel-2]{.tag} [Landsat]{.tag} [MODIS]{.tag}
+:::
+:::
+
+:::
+
+## Digital skills
+
+::: {.card-grid}
+
+::: {.skill-card}
+### <i class="bi bi-code-slash"></i> Programming & data science
+- Programming languages
+- Data visualisation
+- Machine learning
+
+::: {.tags}
+[Python]{.tag} [R]{.tag} [JavaScript]{.tag} [ggplot2]{.tag} [matplotlib]{.tag} [seaborn]{.tag} [scikit-learn]{.tag} [TensorFlow]{.tag} [caret]{.tag}
+:::
+:::
+
+::: {.skill-card}
+### <i class="bi bi-diagram-3"></i> Infrastructure & collaboration
+- Version control
+- Cloud computing and notebooks
+- Virtual environments and containers
+- APIs and remote data access
+
+::: {.tags}
+[Git]{.tag} [GitHub]{.tag} [Google Colab]{.tag} [Jupyter]{.tag} [conda]{.tag} [venv]{.tag} [Docker]{.tag}
+:::
+:::
+
+::: {.skill-card}
+### <i class="bi bi-palette"></i> Science communication & design
+- Graphic design and image editing
+- Interactive infographics
+
+::: {.tags}
+[Canva]{.tag} [Photoshop]{.tag} [Genially]{.tag}
+:::
+:::
+
+:::
+
+## Languages
+
+| | |
+|---|---|
+| [C2]{.level} **Spanish** | Native |
+| [C1]{.level} **English** | Advanced |
+| [A2]{.level} **French** | Elementary |
+| [A2]{.level} **German** | Elementary |
+: {.lang-table .borderless}

@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+// ===== LIGHT MODE · Grafito + turquesa =====
+// Change these colours to restyle the whole site
+$accent:        #17807f;   // links, buttons, headings accents
+$accent-navbar: #5fd6ca;   // selected item in the top bar
+
+$body-bg:       #f7f7f5;
+$body-color:    #2b2f33;
+$navbar-bg:     #2e2e2e;
+$navbar-fg:     #ffffff;
+$navbar-hl:     $accent-navbar;
+$primary:       $accent;
+$link-color:    $accent;
+$headings-color:#2e2e2e;
+$text-muted:    #6c757d;
+$footer-bg:     #2e2e2e;
+$footer-fg:     #d0d0d0;
+
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+/*-- scss:rules --*/
+.navbar { box-shadow: 0 2px 10px rgba(0,0,0,.35); }
+.navbar .nav-link.active { border-bottom: 2px solid $accent-navbar; }
+.about-link { border-color: $accent !important; color: $accent !important; }
+.nav-footer a { color: $accent-navbar; }
+:root { --accent: #{$accent}; --card-bg: #ffffff; --card-border: #e3e3df; --tag-bg: #e6f3f2; }

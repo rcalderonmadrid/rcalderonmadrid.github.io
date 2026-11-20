@@ -1,0 +1,87 @@
+---
+title: "Rocío Calderón Madrid"
+subtitle: "Postdoctoral Researcher<br>IAS-CSIC"
+image: images/profile.jpg
+pagetitle: "Rocío Calderón Madrid"
+page-layout: full
+listing:
+  id: latest-news
+  contents: "news/*.qmd"
+  type: table
+  sort: "date desc"
+  max-items: 4
+  fields: [date, title]
+  date-format: "MMM YYYY"
+  sort-ui: false
+  filter-ui: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 15em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rcalderon@ias.csic.es
+    - text: ORCID
+      href: https://orcid.org/0000-0002-7639-1795
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.es/citations?user=frtN8xwAAAAJ&view_op=list_works&sortby=pubdate
+    - text: ResearchGate
+      href: https://www.researchgate.net/profile/Rocio-Calderon-Madrid
+    - text: Scopus
+      href: https://www.scopus.com/authid/detail.uri?authorId=23092924500
+    - text: Web of Science
+      href: https://www.webofscience.com/wos/author/record/JVE-1126-2024
+---
+
+I am Rocío Calderón, a postdoctoral researcher within the **MOMENTUM programme** at the [Institute for Sustainable Agriculture (IAS-CSIC)](https://www.ias.csic.es) in Córdoba, Spain. I hold degrees in Agricultural and Civil Engineering and a PhD in Biosciences and Agrifood Sciences from the University of Córdoba. I am currently pursuing a MSc in Biostatistics at the University of Valencia. Throughout my research career, I have worked at several institutions across **Spain, the United Kingdom and the United States**.
+
+My research focuses on the early detection, surveillance and risk assessment of plant pathogens, including *Verticillium dahliae*, *Xylella fastidiosa* and *Fusarium oxysporum*, through the integration of **remote sensing** and **epidemiological modelling**. My current work aims to develop operational surveillance systems for emerging diseases in crops under climate change. To this end, I adopt an integrated digital approach combining satellite and high-resolution airborne hyperspectral and thermal remote sensing, advanced statistical methods for epidemiological modelling, and artificial intelligence. This approach seeks to optimise surveillance and management strategies, reduce the economic and environmental impacts of plant diseases, and safeguard food security, while strengthening the resilience of agricultural ecosystems to climate change and emerging pathogens.
+
+## Research interests
+
+- **Remote sensing of plant health and disease:** hyperspectral, multispectral and thermal imaging from airborne and satellite platforms.
+- **Digital surveillance and early-warning systems:** integration of remote sensing, statistical modelling and artificial intelligence for emerging plant disease monitoring.
+- **Quantitative plant disease epidemiology:** disease dynamics, transmission and spatial spread modelling.
+- **Species distribution and ecological niche modelling:** mapping pathogen distributions, identifying environmental drivers and assessing potential range shifts under climate change.
+- **Advanced biostatistical modelling:** Bayesian inference, spatial and spatiotemporal models, and statistical approaches for spectral and epidemiological data.
+- **Radiative transfer modelling and vegetation trait retrieval:** estimation of biochemical, biophysical and physiological plant traits.
+- **Machine learning, deep learning and data-driven approaches:** crop health assessment, disease detection and predictive modelling.
+
+## Experience
+
+::: {.cv-years}
+[2024 – present]{.years}[**Postdoctoral Associate Researcher** · IAS-CSIC, Spain [ ]{.fi .fi-es}]{.what}
+
+[2021 – 2024]{.years}[**Postdoctoral Associate Researcher** · Cornell University, USA [ ]{.fi .fi-us}]{.what}
+
+[2018 – 2020]{.years}[**Postdoctoral Research Fellow** · University of Salford, UK [ ]{.fi .fi-gb}]{.what}
+:::
+
+[Full professional experience →](experience.qmd)
+
+## Education
+
+::: {.cv-years}
+[2025 – present]{.years}[**MSc in Biostatistics** · University of Valencia, Spain]{.what}
+
+[2019 – present]{.years}[**BSc in Mathematics** · National University of Distance Education (UNED), Spain]{.what}
+
+[2015]{.years}[**PhD in Biosciences and Agrifood Sciences** · University of Córdoba, Spain]{.what}
+
+[2010]{.years}[**MSc in Projects and Management of Agrifood Industries** · University of Córdoba, Spain]{.what}
+
+[2010]{.years}[**BE in Civil Engineering** · University of Córdoba, Spain]{.what}
+
+[2009]{.years}[**BE in Agricultural Engineering** · University of Córdoba, Spain]{.what}
+:::
+
+[Full education →](education.qmd)
+
+## Latest news
+
+::: {#latest-news .home-news}
+:::
+
+[All news →](news.qmd)

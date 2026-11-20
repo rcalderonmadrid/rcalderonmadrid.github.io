@@ -1,0 +1,23 @@
+---
+title: "Publications"
+---
+
+::: {.pub-profiles}
+[ORCID](https://orcid.org/0000-0002-7639-1795)
+[Google Scholar](https://scholar.google.es/citations?user=frtN8xwAAAAJ&view_op=list_works&sortby=pubdate)
+[ResearchGate](https://www.researchgate.net/profile/Rocio-Calderon-Madrid)
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=23092924500)
+[Web of Science](https://www.webofscience.com/wos/author/record/JVE-1126-2024)
+:::
+
+<!--
+This page is generated automatically from the .bib files in the "publications" folder:
+  publications/articles.bib     -> Peer-reviewed Publications
+  publications/books.bib        -> Books and Book Chapters (hidden while empty)
+  publications/conferences.bib  -> Conference Contributions
+  publications/outreach.bib     -> Science Communication
+Edit the .bib files, not the list below.
+PDFs: put them in files/pdfs/ and add   pdf = {files/pdfs/name.pdf}   to the entry.
+-->
+
+{{< include publications/_publications.md >}}

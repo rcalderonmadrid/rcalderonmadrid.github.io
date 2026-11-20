@@ -1,0 +1,22 @@
+---
+title: "Projects"
+listing:
+  contents:
+    - momentum.qmd
+    - fusarium.qmd
+    - xylella.qmd
+    - verticillium.qmd
+    - water.qmd
+  type: grid
+  grid-columns: 3
+  sort: false
+  fields: [image, title, description, categories]
+  image-height: 180px
+---
+
+<!--
+HOW TO ADD A PROJECT
+1. Copy one of the .qmd files in this folder (e.g. momentum.qmd) and rename it.
+2. Put its image in images/projects/ and change the "image:" line.
+3. Add the file name to the "contents:" list above (the order there is the order on the page).
+-->

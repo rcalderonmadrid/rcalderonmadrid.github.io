@@ -1,0 +1,10 @@
+/.quarto/
+/_site/
+_freeze/
+.DS_Store
+
+**/*.quarto_ipynb
+
+# Not part of the website
+Claude outputs/
+images/projects/momentum.png

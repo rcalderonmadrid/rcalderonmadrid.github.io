@@ -1,0 +1,79 @@
+project:
+  type: website
+  output-dir: _site
+  # Builds the publication lists from the .bib files before every render
+  pre-render: scripts/build_publications.py
+  resources:
+    - files/
+
+website:
+  title: "Rocío Calderón"
+  description: "Postdoctoral researcher at IAS-CSIC · Remote sensing and plant disease epidemiology"
+  site-url: https://rcalderonmadrid.github.io
+  # Link previews (image + title) when sharing pages on social media
+  open-graph: true
+  twitter-card: true
+  favicon: images/favicon.png
+  page-navigation: false
+  back-to-top-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: education.qmd
+        text: Education
+      - href: experience.qmd
+        text: Experience
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: mentoring.qmd
+        text: Mentoring
+      - href: skills.qmd
+        text: Skills
+      - href: news.qmd
+        text: News
+      - href: files/CV_Rocio_Calderon.pdf
+        text: CV
+        target: _blank
+    right:
+      - icon: github
+        href: https://github.com/rcalderonmadrid
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/rocio-calderon-phd-remotesensing/
+        aria-label: LinkedIn
+      - icon: bluesky-custom
+        href: https://bsky.app/profile/rcalderonmadrid.bsky.social
+        aria-label: Bluesky
+      - icon: twitter-x
+        href: https://x.com/rcalderonmadrid
+        aria-label: X
+      - icon: envelope
+        href: mailto:rcalderon@ias.csic.es
+        aria-label: Email
+  page-footer:
+    left: |
+      **Rocío Calderón Madrid** · Instituto de Agricultura Sostenible (IAS-CSIC)<br>
+      Alameda del Obispo, Av. Menéndez Pidal s/n, 14004 Córdoba, Spain
+    right: |
+      [rcalderon@ias.csic.es](mailto:rcalderon@ias.csic.es) · (+34) 957 499 209<br>
+      Built with [Quarto](https://quarto.org)
+
+format:
+  html:
+    # The theme listed first is the default: dark mode by default
+    theme:
+      dark: [darkly, styles/dark.scss]
+      light: [cosmo, styles/light.scss]
+    css: styles/custom.css
+    grid:
+      body-width: 1100px
+    include-after-body: styles/share.html
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css">
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true

@@ -1,0 +1,17 @@
+---
+title: "IAS-CSIC Seminar: Remote sensing and epidemiological models for plant disease surveillance"
+description: "Invited seminar at the Institute for Sustainable Agriculture (IAS-CSIC) on integrating remote sensing and epidemiological models for the operational surveillance and risk assessment of plant diseases under climate change. Watch the recording on YouTube."
+date: 2025-03-20
+categories: [Talk, Video]
+image: ../images/news/2025-03-ias-seminar.jpg
+---
+
+On **28 March 2025** I gave a talk in the **IAS-CSIC Seminar Series** at the Institute for Sustainable Agriculture in Córdoba: ***"Integración de teledetección y modelos epidemiológicos para la vigilancia operativa y la evaluación del riesgo de enfermedades en plantas en el contexto del cambio climático"*** (Integrating remote sensing and epidemiological models for the operational surveillance and risk assessment of plant diseases in the context of climate change).
+
+In the seminar I explained how satellite data can be combined with epidemiological and species distribution models to monitor plant diseases and assess their risk under climate change, the research line of my [MOMENTUM project](../projects/momentum.qmd).
+
+The seminar was streamed live and the recording is available on the IAS-CSIC YouTube channel (the talk is in Spanish):
+
+{{< video https://www.youtube.com/watch?v=kO8bjD_b2bg title="IAS-CSIC Seminar – Rocío Calderón" >}}
+
+[Seminar announcement on the IAS-CSIC website →](https://www.ias.csic.es/eventos/ciclo-de-seminarios-ias-integracion-de-teledeteccion-y-modelos-epidemiologicos-para-la-vigilancia-operativa-y-la-evaluacion-del-riesgo-de-enfermedades-en-plantas-en-el-contexto-del-cambio-climatico/)

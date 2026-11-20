@@ -1,0 +1,10 @@
+# Citation metrics shown at the top of the Publications page.
+# Copy the numbers from your Scopus author profile:
+#   https://www.scopus.com/authid/detail.uri?authorId=23092924500
+# Leave a value empty to hide it. Then run: python3 scripts/build_publications.py
+source: Scopus
+url: https://www.scopus.com/authid/detail.uri?authorId=23092924500
+updated: November 2026
+h_index: 11
+citations: 1,589
+documents: 14

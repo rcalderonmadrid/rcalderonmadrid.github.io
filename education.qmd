@@ -1,0 +1,63 @@
+---
+title: "Education"
+---
+
+<!--
+HOW TO ADD A DEGREE
+Copy one <div class="timeline-item"> ... </div> block and paste it in date order (newest first).
+Use class="timeline-item current" for degrees in progress.
+Logo files are in images/logos/ (keep the same file names or change the src path).
+-->
+
+<div class="timeline">
+
+<div class="timeline-item current">
+<img class="inst-logo" src="images/logos/uv.jpg" alt="University of Valencia logo">
+<div class="when">2025 – present</div>
+<div class="role">MSc in Biostatistics</div>
+<div class="where">University of Valencia · Valencia, Spain</div>
+</div>
+
+<div class="timeline-item current">
+<img class="inst-logo" src="images/logos/uned.png" alt="UNED logo">
+<div class="when">2019 – present</div>
+<div class="role">BSc in Mathematics</div>
+<div class="where">National University of Distance Education (UNED) · Málaga, Spain</div>
+</div>
+
+<div class="timeline-item">
+<img class="inst-logo" src="images/logos/uco.png" alt="University of Córdoba logo">
+<div class="when">2015</div>
+<div class="role">PhD in Biosciences and Agrifood Sciences</div>
+<div class="where">University of Córdoba · Córdoba, Spain</div>
+<p><strong>Thesis:</strong> <em>Detection of Verticillium wilt in olive using high-resolution hyperspectral and thermal remote sensing imagery</em><br>
+<strong>Supervisors:</strong> Dr. Pablo J. Zarco-Tejada and Dr. Juan A. Navas-Cortés<br>
+<strong>Grade:</strong> Summa cum laude</p>
+<p><a class="pub-btn" href="https://helvia.uco.es/xmlui/handle/10396/12883"><i class="bi bi-file-earmark-text"></i> Read the thesis</a></p>
+</div>
+
+<div class="timeline-item">
+<img class="inst-logo" src="images/logos/uco.png" alt="University of Córdoba logo">
+<div class="when">2010</div>
+<div class="role">MSc in Projects and Management of Agrifood Industries</div>
+<div class="where">University of Córdoba · Córdoba, Spain</div>
+<p><strong>Master's thesis:</strong> <em>Three-dimensional LiDAR models to support the remote sensing discrimination of cotton for the control of agricultural subsidies</em><br>
+<strong>Supervisors:</strong> Dr. José Emilio Meroño de Larriva and Dr. Isabel L. Castillejo-González<br>
+<strong>Grade:</strong> Outstanding</p>
+</div>
+
+<div class="timeline-item">
+<img class="inst-logo" src="images/logos/uco.png" alt="University of Córdoba logo">
+<div class="when">2010</div>
+<div class="role">BE in Civil Engineering</div>
+<div class="where">University of Córdoba · Bélmez, Córdoba, Spain</div>
+</div>
+
+<div class="timeline-item">
+<img class="inst-logo" src="images/logos/uco.png" alt="University of Córdoba logo">
+<div class="when">2009</div>
+<div class="role">BE in Agricultural Engineering</div>
+<div class="where">University of Córdoba · Córdoba, Spain</div>
+</div>
+
+</div>

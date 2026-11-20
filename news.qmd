@@ -1,0 +1,23 @@
+---
+title: "News"
+listing:
+  contents: "news/*.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+  date-format: "MMM YYYY"
+  fields: [date, image, title, description, categories]
+  image-placeholder: images/news-placeholder.jpg
+  page-size: 10
+---
+
+Media appearances, talks, videos and other updates. Use the categories on the right to filter.
+
+<!--
+HOW TO ADD A NEWS ITEM
+1. Copy news/_template.qmd and rename it, e.g. news/2025-03-radio-interview.qmd
+   (files starting with "_" are not published, so the template stays hidden).
+2. Edit the date, title, description, categories and image.
+3. Write the text and, if you want, embed a video or add links.
+Suggested categories: Press, Video, Talk, Paper, Award, Outreach
+-->
