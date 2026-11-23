@@ -112,20 +112,6 @@
     "text": "Interactive web map\nGlobal diversity and distribution of Fusarium oxysporum formae speciales. Zoom in and click on the points to see the details of each record.\n\n  \n\n Open the map in full screen"
   },
   {
-    "objectID": "projects/verticillium.html#overview",
-    "href": "projects/verticillium.html#overview",
-    "title": "Verticillium wilt detection in olive",
-    "section": "Overview",
-    "text": "Overview\nVerticillium wilt, caused by the soilborne fungus Verticillium dahliae, is one of the most damaging diseases of olive. My PhD research demonstrated that fluorescence, canopy temperature and narrow-band spectral indices derived from high-resolution hyperspectral and thermal imagery can detect the disease at early stages, first with unmanned aerial vehicles at orchard scale and then with manned aircraft over large areas. The same approach was applied to other crop diseases such as downy mildew of opium poppy and red leaf blotch of almond."
-  },
-  {
-    "objectID": "projects/verticillium.html#key-publications",
-    "href": "projects/verticillium.html#key-publications",
-    "title": "Verticillium wilt detection in olive",
-    "section": "Key publications",
-    "text": "Key publications\n\nCalderón, R., Zarco-Tejada, P. J., Lucena, C. & Navas-Cortés, J. A. (2013). High-resolution airborne hyperspectral and thermal imagery for pre-visual detection of Verticillium wilt using fluorescence, temperature and narrow-band indices. Remote Sensing of Environment, 139, 231–245. Link\nCalderón, R., Navas-Cortés, J. A. & Zarco-Tejada, P. J. (2015). Early detection and quantification of Verticillium wilt in olive using hyperspectral and thermal imagery over large areas. Remote Sensing, 7, 5584–5610. Link\nCalderón, R. et al. (2014). Soil temperature determines the reaction of olive cultivars to Verticillium dahliae pathotypes. PLOS ONE, 9(10), e110664. DOI"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Rocío Calderón Madrid",
@@ -245,18 +231,11 @@
     "text": "Media appearances, talks, videos and other updates. Use the categories on the right to filter.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUpcoming workshop: Challenges and opportunities of remote sensing in agriculture and forest ecosystems\n\n\n\nWorkshop\n\n\n\n\nOnline workshop on 26 November 2026, co-organised with Erica Lombardi within the CSIC PTI Horizonte Verde. Free registration.\n\n\n\n\n\n\nNov 2026\n\n\n\n\n\n\n\n\n\n\n\n\nIAS-CSIC Seminar: Remote sensing and epidemiological models for plant disease surveillance\n\n\n\nTalk\n\nVideo\n\n\n\n\nInvited seminar at the Institute for Sustainable Agriculture (IAS-CSIC) on integrating remote sensing and epidemiological models for the operational surveillance and risk assessment of plant diseases under climate change. Watch the recording on YouTube.\n\n\n\n\n\n\nMar 2025\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
-    "objectID": "projects/water.html#overview",
-    "href": "projects/water.html#overview",
-    "title": "Water use optimisation in woody crops",
-    "section": "Overview",
-    "text": "Overview\nResearch on deficit irrigation strategies in olive and almond, monitoring plant water status with the pressure chamber (stem water potential) and physiological measurements such as chlorophyll fluorescence and gas exchange."
-  },
-  {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "MOMENTUM: Remote sensing and epidemiological modelling for the surveillance of emerging plant diseases\n\n\n\nXylella fastidiosa\n\nSatellite\n\nMachine learning\n\nClimate change\n\n\n\nIntegrating hyperspectral and multispectral satellite data, radiative transfer models, machine learning and epidemiological models for the operational surveillance and risk…\n\n\n\n\n\n\n\n\n\n\n\n\nSoilborne plant pathogen dispersal and assessment: a remote sensing-based global surveillance system for Fusarium wilt\n\n\n\nFusarium oxysporum\n\nNASA\n\nGlobal scale\n\nAerosol transport\n\nClimate change\n\n\n\nNASA-funded project integrating satellite remote sensing, Earth system and aerosol transport modelling and comparative genomics to map the global risk and atmospheric…\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating spread modelling and remote sensing to optimise early detection surveillance for Xylella fastidiosa in the European Union\n\n\n\nXylella fastidiosa\n\nHyperspectral\n\nMachine learning\n\nSpread models\n\nSurveillance\n\n\n\nPostdoctoral project at the University of Salford combining airborne hyperspectral and thermal imagery, machine learning and epidemic spread models to detect Xylella…\n\n\n\n\n\n\n\n\n\n\n\n\nVerticillium wilt detection in olive\n\n\n\nVerticillium dahliae\n\nOlive\n\nUAV\n\nThermal\n\n\n\nEarly detection and quantification of Verticillium wilt using high-resolution hyperspectral and thermal imagery from UAVs and manned aircraft.\n\n\n\n\n\n\n\n\n\n\n\n\nWater use optimisation in woody crops\n\n\n\nIrrigation\n\nOlive\n\nAlmond\n\nPlant physiology\n\n\n\nDeficit irrigation strategies and plant water status monitoring in olive and almond orchards.\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "MOMENTUM: Remote sensing and epidemiological modelling for the surveillance of emerging plant diseases\n\n\n\nXylella fastidiosa\n\nSatellite\n\nMachine learning\n\nClimate change\n\n\n\nIntegrating hyperspectral and multispectral satellite data, radiative transfer models, machine learning and epidemiological models for the operational surveillance and risk…\n\n\n\n\n\n\n\n\n\n\n\n\nSoilborne plant pathogen dispersal and assessment: a remote sensing-based global surveillance system for Fusarium wilt\n\n\n\nFusarium oxysporum\n\nNASA\n\nGlobal scale\n\nAerosol transport\n\nClimate change\n\n\n\nNASA-funded project integrating satellite remote sensing, Earth system and aerosol transport modelling and comparative genomics to map the global risk and atmospheric…\n\n\n\n\n\n\n\n\n\n\n\n\nIntegrating spread modelling and remote sensing to optimise early detection surveillance for Xylella fastidiosa in the European Union\n\n\n\nXylella fastidiosa\n\nHyperspectral\n\nMachine learning\n\nSpread models\n\nSurveillance\n\n\n\nPostdoctoral project at the University of Salford combining airborne hyperspectral and thermal imagery, machine learning and epidemic spread models to detect Xylella…\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/xylella.html#overview",
