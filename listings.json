@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/news/2026-11-workshop-remote-sensing.html",
+      "/news/2025-03-ias-seminar.html"
+    ]
+  },
+  {
     "listing": "/news.html",
     "items": [
       "/news/2026-11-workshop-remote-sensing.html",
@@ -14,13 +21,6 @@
       "/projects/xylella.html",
       "/projects/verticillium.html",
       "/projects/water.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/news/2026-11-workshop-remote-sensing.html",
-      "/news/2025-03-ias-seminar.html"
     ]
   }
 ]
