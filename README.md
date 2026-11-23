@@ -134,7 +134,6 @@ Example: `files/pdfs/conferences/calderon2024nasa.pdf`. The PDF icon appears aut
 
 Search for `TODO` in VS Code (Cmd + Shift + F) to find gaps.
 
-- [ ] Replace the **placeholder CV** in `files/CV_Rocio_Calderon.pdf` with the real CV
 - [ ] Check the **MOMENTUM start year** in `experience.qmd`
 - [ ] Own images for the **Fusarium** and **Xylella** projects (`images/projects/`)
 - [ ] Confirm the dates and format of **RAQRS 2020** and the author order of **ICPP 2018** in `conferences.bib`
