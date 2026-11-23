@@ -1,99 +1,142 @@
 # Web personal · Rocío Calderón Madrid
 
-Web académica hecha con [Quarto](https://quarto.org) y publicada gratis en GitHub Pages.
-Diseño: plantilla *trestles*, colores grafito + turquesa, con modo claro/oscuro.
+Portfolio académico hecho con [Quarto](https://quarto.org) y publicado gratis en GitHub Pages:
+**<https://rcalderonmadrid.github.io>**
 
-## Estructura
+Diseño: plantilla *trestles* en Inicio, colores grafito + turquesa, modo oscuro por defecto con botón para cambiar a claro.
+
+---
+
+## Estructura de la web
+
+Menú: **Home · Education · Experience · Projects · Publications · Mentoring · Skills · News · CV**
 
 ```
-├── _quarto.yml              ← menú, enlaces de redes, pie de página
-├── index.qmd                ← Home
-├── experience.qmd           ← Professional Experience (+ Education, Awards)
-├── projects/                ← Projects: index.qmd (galería) + una página por proyecto
-├── publications.qmd         ← Publications (se rellena sola desde los .bib)
+├── _quarto.yml                 ← menú, iconos de redes, pie de página, dirección de la web
+├── index.qmd                   ← Home (bio, intereses, experiencia y formación resumidas, últimas noticias)
+├── education.qmd               ← Education (titulaciones, tesis)
+├── experience.qmd              ← Professional Experience (puestos, financiación, logos, premios)
+├── projects/
+│   ├── index.qmd               ← galería de proyectos (el orden se define aquí)
+│   ├── momentum.qmd            ← MOMENTUM · IAS-CSIC (actual)
+│   ├── fusarium.qmd            ← NASA · Cornell University
+│   └── xylella.qmd             ← Fundación Alfonso Martín Escudero · University of Salford
+├── publications.qmd            ← Publications (se genera sola desde los .bib)
 ├── publications/
-│   ├── articles.bib         ← artículos revisados por pares
-│   ├── conferences.bib      ← congresos
-│   └── outreach.bib         ← divulgación
-├── mentoring.qmd            ← Mentoring (tesis dirigidas)
-├── news.qmd                 ← News (lista automática de las noticias)
-├── news/                    ← una noticia = un archivo .qmd (_template.qmd es la plantilla)
-├── skills.qmd               ← Skills
-├── files/CV_Rocio_Calderon.pdf  ← el CV que se abre en la pestaña "CV"
-├── images/                  ← foto de perfil, imágenes de proyectos, favicon
-├── styles/                  ← colores (light.scss / dark.scss) y estilos (custom.css)
-├── scripts/build_publications.py  ← genera las listas de publicaciones
-└── .github/workflows/publish.yml  ← publica la web automáticamente
+│   ├── preprints.bib           ← Preprints
+│   ├── articles.bib            ← Peer-reviewed Publications
+│   ├── books.bib               ← Books and Book Chapters (oculta mientras esté vacía)
+│   ├── conferences.bib         ← Conference Contributions (internacionales y nacionales)
+│   ├── outreach.bib            ← Technical and Outreach Articles
+│   ├── metrics.yml             ← métricas de Scopus (h-index, citas, documentos)
+│   └── _publications.md        ← generado automáticamente: NO editar
+├── mentoring.qmd               ← Mentoring (tesis dirigidas)
+├── skills.qmd                  ← Skills
+├── news.qmd                    ← News (lista automática)
+├── news/                       ← una noticia = un archivo .qmd (_template.qmd es la plantilla)
+├── files/
+│   ├── CV_Rocio_Calderon.pdf   ← el CV que abre la pestaña "CV"
+│   └── pdfs/                   ← PDFs de publicaciones, una carpeta por sección
+├── images/                     ← foto de perfil, logos de instituciones, proyectos y noticias
+├── styles/                     ← colores (light.scss / dark.scss), estilos (custom.css), botones de compartir (share.html)
+├── scripts/build_publications.py   ← convierte los .bib en la página de publicaciones
+└── .github/workflows/publish.yml   ← publica la web automáticamente al subir cambios
 ```
 
-## 1. Instalar (una sola vez)
+---
 
-1. **Quarto**: <https://quarto.org/docs/get-started/>
-2. **VS Code** con la extensión **Quarto**.
-3. **Git** (en Mac: `xcode-select --install` en la Terminal) y una cuenta en GitHub.
+## Trabajar con la web
 
-## 2. Ver la web en tu ordenador
+### Ver la web en tu ordenador
 
-Abre la carpeta en VS Code y, en la terminal de VS Code:
+En la terminal de VS Code:
 
 ```bash
 quarto preview
 ```
 
-Se abre en el navegador y se actualiza cada vez que guardas un archivo.
+Se abre en el navegador y se actualiza al guardar (Cmd + S). Para pararlo: **Ctrl + C** en la terminal.
 
-## 3. Subirla a GitHub (una sola vez)
+> Los cambios en los `.bib` **no** se ven solos en el preview. Ejecuta en otra terminal
+> `python3 scripts/build_publications.py` y recarga el navegador (o reinicia el preview).
 
-1. En GitHub crea un repositorio **público** llamado `TU-USUARIO.github.io` (vacío, sin README).
-2. En la terminal, dentro de la carpeta:
+### Publicar los cambios
 
-   ```bash
-   git init
-   git add .
-   git commit -m "Primera versión de la web"
-   git branch -M main
-   git remote add origin https://github.com/TU-USUARIO/TU-USUARIO.github.io.git
-   git push -u origin main
-   quarto publish gh-pages
-   ```
+1. Panel **Source Control** (⑂, o Cmd + Shift + G).
+2. Escribe un mensaje corto y pulsa **Commit**.
+3. Pulsa **Sync Changes**.
 
-3. En GitHub: **Settings → Pages → Source: Deploy from a branch → Branch: `gh-pages` / root → Save**.
-4. En **Settings → Actions → General → Workflow permissions** marca **Read and write permissions**.
+GitHub publica la web sola en 1–3 minutos. Para comprobarlo: pestaña
+[Actions](https://github.com/rcalderonmadrid/rcalderonmadrid.github.io/actions) → check verde ✅.
+Después recarga la web con **Cmd + Shift + R**.
 
-Tu web estará en `https://TU-USUARIO.github.io`.
+---
 
-## 4. El día a día
-
-Edita → guarda → en VS Code, panel **Source Control**: escribe un mensaje, **Commit** y **Sync/Push**.
-GitHub vuelve a publicar la web sola en 1–2 minutos (lo ves en la pestaña **Actions**).
+## Guía rápida: qué tocar para cada cosa
 
 | Quiero… | Qué hago |
 |---|---|
-| Añadir un artículo | Pegar su entrada BibTeX en `publications/articles.bib` (o exportar desde Zotero y sustituir el archivo) |
-| Añadir un botón PDF/código/datos | En la entrada BibTeX: `pdf = {files/archivo.pdf}`, `code = {https://...}`, `data = {https://...}` |
-| Añadir un congreso | Copiar una entrada de `publications/conferences.bib` |
-| Añadir un puesto | Copiar un bloque `timeline-item` en `experience.qmd` |
-| Añadir un proyecto | Copiar un `.qmd` de `projects/`, cambiar su imagen y añadirlo a la lista de `projects/index.qmd` |
-| Actualizar el CV | Sustituir `files/CV_Rocio_Calderon.pdf` (mismo nombre) |
-| Añadir una noticia, prensa o vídeo | Copiar `news/_template.qmd` con un nombre nuevo (p. ej. `news/2025-03-entrevista-radio.qmd`) y rellenarlo. Aparece sola en *News* y en *Latest news* de Home |
-| Insertar un vídeo de YouTube | En una noticia: `{{< video https://www.youtube.com/watch?v=ID >}}` |
-| Añadir una tesis dirigida | Copiar un bloque `<div class="mentee">` en `mentoring.qmd` |
-| Cambiar colores | `styles/light.scss` y `styles/dark.scss` (variables al principio) |
+| **Añadir un artículo** | Pegar su BibTeX en `publications/articles.bib` (desde Zotero, la web de la revista o <https://www.doi2bib.org>) |
+| **Añadir un preprint** | Pegarlo en `publications/preprints.bib` con `publisher = {servidor}`. Al publicarse, moverlo a `articles.bib` |
+| **Añadir un congreso** | Copiar una entrada de `publications/conferences.bib` |
+| **Añadir un libro o capítulo** | Quitar los `%` de un ejemplo de `publications/books.bib` y rellenarlo |
+| **Añadir divulgación** | Copiar una entrada de `publications/outreach.bib` |
+| **Añadir el PDF de una publicación** | Guardarlo en `files/pdfs/<sección>/<clave>.pdf` (ver abajo) |
+| **Actualizar las métricas** | Cambiar los números y la fecha en `publications/metrics.yml` |
+| **Añadir una noticia** | Copiar `news/_template.qmd` con un nombre nuevo (`news/2026-12-titulo.qmd`) y rellenarlo |
+| **Insertar un vídeo de YouTube** | En una noticia: `{{< video https://www.youtube.com/watch?v=ID >}}` |
+| **Añadir un puesto** | Copiar un bloque `timeline-item` en `experience.qmd` |
+| **Añadir una titulación** | Copiar un bloque `timeline-item` en `education.qmd` |
+| **Añadir un estudiante** | Copiar un bloque `mentee` en `mentoring.qmd` |
+| **Añadir un proyecto** | Copiar un `.qmd` de `projects/`, poner su imagen en `images/projects/` y añadirlo a la lista de `projects/index.qmd` |
+| **Actualizar el CV** | Sustituir `files/CV_Rocio_Calderon.pdf` (mismo nombre) |
+| **Cambiar colores** | `styles/light.scss` y `styles/dark.scss` |
 
-## 5. Pendiente de completar ✅
+### Publicaciones: campos útiles en los `.bib`
 
-Busca `TODO` en VS Code (Cmd+Shift+F) para encontrar todos los huecos.
+| Campo | Para qué sirve |
+|---|---|
+| `doi = {10.xxxx/...}` | Muestra "DOI: …" clicable que abre el artículo |
+| `url = {https://...}` | Icono de enlace (solo si no hay DOI) |
+| `code = {https://github.com/...}` | Botón **Code** |
+| `data = {https://...}` | Botón **Data** (figshare, Zenodo…) |
+| `pdf = {files/pdfs/...}` | PDF con otro nombre (si no, se busca por la clave) |
+| `presentation = {Oral}` / `{Poster}` / `{Invited}` / texto libre | Etiqueta del tipo de presentación (congresos) |
+| `presenter = {Apellido, N.}` | Asterisco \* en quien presentó, si no es el primer autor |
+| `scope = {national}` | Lo pone en *Spanish Conferences* (si no, *International*) |
+| `date = {Diciembre 2018}` | Fecha del número (divulgación) o del congreso |
 
-- [ ] Tu foto: sustituir `images/profile.jpg` (cuadrada, mínimo 600×600 px)
-- [x] Usuario de **GitHub** (rcalderonmadrid) en `_quarto.yml`
-- [x] Usuario de **Bluesky** (rcalderonmadrid.bsky.social) en `_quarto.yml`
-- [ ] `site-url` en `_quarto.yml`
-- [ ] Tu CV en PDF en `files/`
-- [ ] Años de titulaciones, título de la tesis y directores (`experience.qmd`)
-- [ ] Año de inicio de MOMENTUM y periodo postdoctoral 2015–2018 en Córdoba (`experience.qmd`)
-- [ ] Premios y reconocimientos (`experience.qmd`)
-- [ ] Imágenes reales de cada proyecto (`images/projects/`, formato 1200×750 aprox.) y textos de MOMENTUM y Water use
-- [ ] DOIs de los artículos que solo tienen enlace a la editorial (Remote Sensing of Environment, ISPRS, MDPI)
-- [ ] Sustituir los ejemplos de `mentoring.qmd` por tus estudiantes reales
-- [ ] Añadir noticias de prensa y vídeos en `news/` (y comprobar la fecha de la noticia del artículo de ERL)
-- [ ] PDFs de los artículos de divulgación (los tenías en Wix) → guardarlos en `files/` y añadir `pdf = {...}`
+- **Cursiva** en títulos: escribe `<i>Xylella fastidiosa</i>`.
+- **Claves**: formato corto `apellido` + `año` + `palabra` en minúsculas, sin tildes ni guiones
+  (p. ej. `calderon2026iobc`, `poblete2021discriminating`).
+
+### PDFs
+
+Guárdalos con la **clave de la entrada** como nombre, en la carpeta de su sección:
+
+```
+files/pdfs/preprints/     files/pdfs/articles/     files/pdfs/books/
+files/pdfs/conferences/   files/pdfs/outreach/     files/pdfs/mentoring/
+```
+
+Ejemplo: `files/pdfs/conferences/calderon2024nasa.pdf`. El icono de PDF aparece solo.
+
+> Antes de colgar el PDF de un artículo, comprueba que la revista lo permite
+> (<https://openpolicyfinder.jisc.ac.uk>). Si no, usa el manuscrito aceptado.
+> Intenta que cada PDF pese menos de ~5 MB.
+
+---
+
+## Pendiente
+
+Busca `TODO` en VS Code (Cmd + Shift + F) para encontrar huecos.
+
+- [ ] Sustituir el **CV provisional** de `files/CV_Rocio_Calderon.pdf` por el CV real
+- [ ] Revisar el **año de inicio de MOMENTUM** en `experience.qmd`
+- [ ] Imagen propia para los proyectos de **Fusarium** y **Xylella** (`images/projects/`)
+- [ ] Confirmar fecha y formato de **RAQRS 2020** y el orden de autores de **ICPP 2018** en `conferences.bib`
+- [ ] Tipo de presentación de **Tantoyuca 2022** en `conferences.bib`
+- [ ] Número de **Grandes Cultivos 2018** en `outreach.bib`
+- [ ] PDF de **PHYTOMA 2024** (`files/pdfs/outreach/navascortes2024phytoma.pdf`)
+- [ ] Cambiar la etiqueta `Upcoming` del **workshop de teledetección** cuando haya pasado
+- [ ] Actualizar `publications/metrics.yml` cada pocos meses

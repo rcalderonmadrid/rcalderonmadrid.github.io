@@ -5,8 +5,6 @@ listing:
     - momentum.qmd
     - fusarium.qmd
     - xylella.qmd
-    - verticillium.qmd
-    - water.qmd
   type: grid
   grid-columns: 3
   sort: false

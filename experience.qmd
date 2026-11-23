@@ -7,7 +7,7 @@ HOW TO ADD A NEW POSITION
 Copy one of the <div class="timeline-item"> ... </div> blocks below and paste it at the top.
 Add the word "current" to the class of your current position: class="timeline-item current"
 LOGO (optional), first line inside the block (logo files are in images/logos/):
-<img class="inst-logo" src="images/logos/ias-csic.png" alt="IAS-CSIC logo">
+<img class="inst-logo" src="images/logos/ias-csic.jpg" alt="IAS-CSIC logo">
 FUNDING line (optional), put it right after the "where" line:
 <div class="funding"><i class="bi bi-cash-coin"></i> Funding: <a href="https://...">Programme name</a></div>
 -->
