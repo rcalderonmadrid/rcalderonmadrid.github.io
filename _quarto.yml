@@ -34,7 +34,7 @@ website:
         text: Skills
       - href: news.qmd
         text: News
-      - href: files/CV_Rocio_Calderon.pdf
+      - href: files/CV_Rocio_Calderon.pdf?v=2026-11-23
         text: CV
         target: _blank
     right:

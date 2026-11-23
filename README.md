@@ -92,7 +92,7 @@ Then reload the website with **Cmd + Shift + R**.
 | **Add a degree** | Copy a `timeline-item` block in `education.qmd` |
 | **Add a student** | Copy a `mentee` block in `mentoring.qmd` |
 | **Add a project** | Copy a `.qmd` file in `projects/`, put its image in `images/projects/` and add it to the list in `projects/index.qmd` |
-| **Update the CV** | Replace `files/CV_Rocio_Calderon.pdf` (same name) |
+| **Update the CV** | Replace `files/CV_Rocio_Calderon.pdf` (same name) and change the date after `?v=` in the CV link of `_quarto.yml`, so browsers load the new version instead of a cached one |
 | **Change the colours** | `styles/light.scss` and `styles/dark.scss` |
 
 ### Publications: useful fields in the `.bib` files
